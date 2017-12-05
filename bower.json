@@ -1,0 +1,27 @@
+{
+  "name": "mu-jquery-widget-addressfield",
+  "authors": [
+    "Mikael Karon <mikael@karon.se>"
+  ],
+  "description": "mu-jquery-widget Addressfield widget",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/mu-lib/mu-jquery-widget-addressfield#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "examples"
+  ],
+  "dependencies": {
+    "mu-jquery-widget": "^17.0.4",
+    "jquery-validation": "^1.17.0",
+    "jquery.addressfield": "^1.1.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "mu-jquery-app": "^22.0.0"
+  },
+  "version": "0.0.0"
+}
