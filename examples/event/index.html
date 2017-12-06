@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <form mu-widget="event-example/widget">
+    <div class="field-wrapper">
+      <div class="field-wrapper">
+        <label for="country">Country</label>
+        <select id="country" data-country-selected="US">
+          <option value="CA">Canada</option>
+          <option value="FR">France</option>
+          <option value="JP">Japan</option>
+          <option value="GB">United Kingdom</option>
+          <option value="US" selected>United States</option>
+          <option value="ZW">Zimbabwe</option>
+        </select>
+      </div>
+    </div>
+    <div id="locality-fields">
+      <div class="field-wrapper">
+        <label for="city">City</label>
+        <input type="text" id="city" />
+      </div>
+      <div class="field-wrapper">
+        <label for="state">Administrative Area</label>
+        <input type="text" id="state" />
+      </div>
+      <div class="field-wrapper">
+        <label for="zip">Postal Code</label>
+        <input type="text" id="zip" />
+      </div>
+    </div>
+    <button type="submit">submit</button>
+  </form>
+</body>
+
+<script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.2.1,npm/jquery.addressfield@1.1.0,npm/mu-jquery-app@22.0.0"></script>
+<script src="../../widget.js"></script>
+<script src="widget.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mu-lib/mu-jquery-app@v22.0.0/examples/quickstart-umd/app.js"></script>
+
+</html>
